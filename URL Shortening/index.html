@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>URL Shortener</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <h1>URL Shortener</h1>
+    <div class="form">
+      <input type="text" id="originalUrl" placeholder="Enter your URL">
+      <button onclick="shortenUrl()">Shorten</button>
+    </div>
+    <div id="result" class="hidden">
+      <p>Shortened URL:</p>
+      <input type="text" id="shortUrl" readonly>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
